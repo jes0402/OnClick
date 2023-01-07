@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Balsamiq Sans';
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(105, 104, 103);
+    height: 70px;
+    margin: 0 7%;
+}
+
+input{
+    height: 25px;
+    width: 300px;
+    border-radius: 3px ;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+.btn{
+    height: 28px;
+    width: 60px;
+    background-color: rgb(62, 209, 235);
+    border-radius: 8px black;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+.container-princional{
+    height: 500px;
+    /* width: 700px; */
+    display: flex;
+    justify-content: space-around;
+    margin: 0 4%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    padding: 30px;
+}
+
+.column2{
+    width: 30%;
+
+}
+
+.box-japanese{
+    height: 200px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-zen{
+    height: 200px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box-add{
+    height: 150px;
+    border: 3px solid black;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-ninja{
+    height: 35px;
+    width: 80px;
+    background-color: rgb(231, 204, 48);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.box-likes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-info {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.box-add h3{
+    margin: 10px;
+}
+
+.btn-add{
+    height: 35px;
+    width: 150px;
+    background-color: rgb(77, 168, 24);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 18px;
+    margin: 20px;
+    
+}
